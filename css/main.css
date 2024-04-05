@@ -1,0 +1,11 @@
+:root {
+    --bs-info: #95ACB1;
+    --bs-info-rgb:  149, 172, 177;
+
+}
+
+.banner {
+    background: url(../images/IMG_9849.JPG) no-repeat center;
+    background-size: cover;
+}
+
