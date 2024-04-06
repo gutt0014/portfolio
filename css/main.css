@@ -1,12 +1,37 @@
-:root {
-    --bs-info: #95ACB1;
-    --bs-info-rgb:  149, 172, 177;
-
-}
-
 .banner {
     background: url(../images/IMG_9849.JPG) no-repeat center;
     background-size: cover;
 }
 
+:root {
+    --bs-primary: #95ACB1;
+    --bs-primary-rgb:  149, 172, 177;
+    --bs-secondary: #3C5153;
+    --bs-secondary-rgb: 60, 81, 83;
+    --bs-tertiary: #F3F6F6;
+    --bs-tertirary-rgb: 243, 246, 246;
+}
 
+.btn-primary {
+    --bs-btn-bg: #3C5153;
+    --bs-btn-border-color: #3C5153;
+    --bs-btn-hover-color: #3C5153;
+    --bs-btn-hover-bg: #F3F6F6;
+    --bs-btn-hover-border-color: #3C5153;
+    --bs-btn-active-color: #3C5153;
+    --bs-btn-active-bg: #F3F6F6;
+    --bs-btn-active-border-color: #3C5153;
+    --bs-btn-disabled-color: #3C5153;
+    --bs-btn-disabled-bg: #F3F6F6;
+    --bs-btn-disabled-border-color: #3C5153;
+}
+
+.navbar-nav .nav-link {
+    color: var(--bs-tertiary)
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
