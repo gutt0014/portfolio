@@ -1,5 +1,6 @@
 # Portfolio README
 This repository contains the code for my personal web portfolio.
+https://www.figma.com/file/S7MSdQM414SuNHO13t5dAe/guttridge_kaitlynn_prototype?type=design&node-id=2-12&mode=design
 
 ## About
 My portfolio showcases my skills and projects as a designer and developer. It includes sections for home, about me, resume, my work, and contact.
